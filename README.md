@@ -68,3 +68,17 @@ See the live demo [here](link-to-live-demo).
 
 3. Delete an alarm:
     - Click the "Delete" button next to the alarm time in the alarms list to remove the alarm.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+1. Fork the project.
+2. Create your feature branch (git checkout -b feature/your-feature).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature/your-feature).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
