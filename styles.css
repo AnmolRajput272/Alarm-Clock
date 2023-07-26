@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to bottom right, #8AC4D0, #E3A5B6);
+    background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	height: 100vh;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#alarmSound {
+    display: none;
+}
+
+/* Clock canvas */
+#clockContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#clockCanvas {
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Alarm Form */
+.alarm-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #333;
+  margin-left:10px;
+}
+
+
+
+input[type="datetime-local"],
+button {
+  padding: 8px 12px;
+  font-size: 17px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+input[type="datetime-local"]:hover{
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Alarm List */
+#alarmsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+li>*{
+  margin: 15px
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  transition: background-color 0.2s;
+  font-size: 18px;
+  box-shadow: 0 0 10px 1px grey;
+  border-radius: 6px;
+}
+
+/* Digital Clock */
+#digitalClock {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Alarm Sound Controls */
+#snoozeBtn {
+  display: none;
+}
+
+#snoozeBtn.show {
+  display: block;
+  margin-top: 10px;
+}
+
+#alarm-container{
+	margin-top: 50px;
+	font-size: 25px;
+	display:flex;
+	align-items:center;
+}
+
+/* Time Input */
+#timePicker {
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  background: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-right:10px;
+}
+
+#timePicker:focus {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background: #E3A5B6;
+}
+
+#todaysDate{
+  font-size:20px;
+  margin-top:10px;
+}
+
+
+
+
+

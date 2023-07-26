@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Alarm Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Vanilla Alarm Clock</h1>
+    <div id="clockContainer">
+        <canvas id="clockCanvas" width="200" height="200"></canvas>
+    	<div>
+			<h2>Digital Clock</h2>
+			<div id="digitalClock"></div>
+			<div id="todaysDate"></div>
+		</div>
+		<div id="alarm-container">
+		    <label for="timePicker">Alarm Time:</label>
+		    <input type="datetime-local" id="timePicker" step="1">
+		    <button id="setAlarmBtn">Set Alarm</button>
+		    <button id="clearAlarmBtn">Clear All Alarms</button>
+        </div>
+    </div>
+    <div id="alarmsList"></div>
+    <audio src="alarm_sound.mp3" id="alarmSound"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
+
