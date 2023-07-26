@@ -33,7 +33,7 @@ The Vanilla Alarm Clock is a lightweight and user-friendly web-based alarm clock
 
 ![Alarm Clock Demo](path-to-demo-gif-or-screenshot.gif)
 
-See the live demo [here](link-to-live-demo).
+See the live demo [here]([link-to-live-demo](https://anmolrajput272.github.io/Alarm-Clock/)).
 
 ## Getting Started
 
