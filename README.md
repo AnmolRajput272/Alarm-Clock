@@ -46,7 +46,7 @@ See the live demo [here](link-to-live-demo).
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/alarm-clock.git
+   git clone https://github.com/AnmolRajput272/Alarm-Clock.git
 
 2. Navigate to the project directory:
 
