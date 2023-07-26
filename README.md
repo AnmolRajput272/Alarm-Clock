@@ -46,12 +46,12 @@ See the live demo [here](link-to-live-demo).
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/vanilla-alarm-clock.git
+   git clone https://github.com/your-username/alarm-clock.git
 
 2. Navigate to the project directory:
 
    ```bash
-   cd vanilla-alarm-clock
+   cd alarm-clock
 
 3. Open the index.html file in your web browser.
 
