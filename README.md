@@ -55,7 +55,7 @@ See the live demo [here](link-to-live-demo).
 
 3. Open the index.html file in your web browser.
 
-### Usage
+## Usage
 
 1. Set an alarm:
     - Click on the date and time input fields to select the date and time for the alarm.
