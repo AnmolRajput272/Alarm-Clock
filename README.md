@@ -47,3 +47,24 @@ See the live demo [here](link-to-live-demo).
 
    ```bash
    git clone https://github.com/your-username/vanilla-alarm-clock.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd vanilla-alarm-clock
+
+3. Open the index.html file in your web browser.
+
+### Usage
+
+1. Set an alarm:
+    - Click on the date and time input fields to select the date and time for the alarm.
+    - Click the "Set Alarm" button to add the alarm.
+    - The alarm will trigger at the specified date and time.
+
+2. Snooze an alarm:
+    - When the alarm is ringing, click the "Snooze" button to snooze the alarm.
+    - Choose the snooze time duration and confirm the snooze.
+
+3. Delete an alarm:
+    - Click the "Delete" button next to the alarm time in the alarms list to remove the alarm.
